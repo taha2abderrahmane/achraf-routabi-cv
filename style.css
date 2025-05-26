@@ -1,0 +1,73 @@
+/* Modern color palette */
+:root {
+  --primary: #3498db;    /* Blue */
+  --secondary: #2ecc71;  /* Green */
+  --dark: #2c3e50;       /* Dark blue */
+  --light: #ecf0f1;      /* Light gray */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: var(--dark);
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 5px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: var(--primary);
+}
+
+/* Section styling */
+h2 {
+  margin-top: 30px;
+  color: var(--secondary);
+}
+
+/* List items */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Highlight important text */
+strong {
+  color: var(--dark);
+}
+
+/* Blockquote (your "À propos" section) */
+blockquote {
+  background-color: var(--light);
+  padding: 15px;
+  border-left: 4px solid var(--primary);
+  margin: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}
