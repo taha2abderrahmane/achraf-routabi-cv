@@ -3,9 +3,6 @@ layout: default
 ---
 
 <link rel="stylesheet" href="style.css">
-
-
-
 # Achraf ROUTABI
 
 **Email:** achraf.routabi57@gmail.com  
