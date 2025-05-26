@@ -1,10 +1,7 @@
 ---
 layout: default
-css: /style.css
+css: style.css
 ---
-
-
-
 
 # Achraf ROUTABI
 
